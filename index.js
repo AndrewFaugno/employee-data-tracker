@@ -1,6 +1,7 @@
 const db = require('./db/connection');
 const cTable = require('console.table');
 const inquirer = require('inquirer');
+const figlet = require('figlet');
 
 // prompts user for initial instructions then sends to appropriate function
 const userPrompt = () => {
@@ -305,4 +306,14 @@ const updateEmployeeRole = function() {
     });
 };
 
-userPrompt();
+figlet('Employee Tracker', function(err, data) {
+    if (err) {
+        console.log('Something went wrong...');
+        console.dir(err);
+        return;
+    }
+    console.log(data)
+
+    userPrompt();
+});
+
