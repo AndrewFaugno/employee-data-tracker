@@ -14,7 +14,7 @@
   * [Questions](#questions)
   
   ## Installation
-  Clone repo and run `npm i` to install dependencies. Then run mysql to add the default database through `source db/--` to add the db, schema, and seeds data.
+  Clone repo and run `npm i` to install dependencies. Then run mysql to add the default database through `source db/(enter file name here)` to add the db, schema, and seeds data.
   
   ## Usage
   Tracking employee data and information.
