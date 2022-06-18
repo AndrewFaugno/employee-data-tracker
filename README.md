@@ -17,7 +17,7 @@
   Clone repo and run `npm i` to install dependencies. Then run mysql to add the default database through `source db/(enter file name here)` to add the db, schema, and seeds data.
   
   ## Usage
-  Tracking employee data and information.
+  To use this application run `node index` in root terminal then follow the prompts given. View video walkthrough [here.](https://drive.google.com/file/d/1qQfbvOpQL1fGQRa3hINgkpq1NlI6rfYs/view)
 
   ## Contribution
   .
